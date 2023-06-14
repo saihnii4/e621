@@ -576,7 +576,7 @@ class AuthenticatedUser(User):
     blacklisted_tags: str
     time_zone: str
     per_page: int
-    custom_style: str
+    custom_style: Optional[str]
     favorite_count: int
     api_regen_multiplier: int
     api_burst_limit: int
